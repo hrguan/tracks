@@ -2,7 +2,7 @@
 ![Home](https://res.cloudinary.com/dql5gkbx4/image/upload/v1623109392/WechatIMG131_kdm8yp.jpg)
 ![Detail](https://res.cloudinary.com/dql5gkbx4/image/upload/v1623109392/WechatIMG129_cijxbf.jpg)
 
-RestaurantSearching is an app where users can search restaurant by categories. This project was part of Stephen Grider's React Native course on Udemy.
+Tracks is an app where users can track their own routes and save them. This project was part of Stephen Grider's React Native course on Udemy.
 
 ### Features
 * Users can sign up, log in and log out
