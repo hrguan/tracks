@@ -5,9 +5,9 @@
 RestaurantSearching is an app where users can search restaurant by categories. This project was part of Stephen Grider's React Native course on Udemy.
 
 ### Features
-* Users can search restaurant by categories
-* Users can find the app divides the restaurants into four tiers based on the price
-* Users are able to learn some details of a specific restaurant
+* Users can sign up, log in and log out
+* Users can track their own routes and save them
+* Users are able to look up their tracks' details 
 
 ### Run Locally
 1. Install Expo Go from App Store
@@ -20,7 +20,21 @@ const mongoUri = "Your MongoDB String";
 ```
 npm install
 ```
-5. Run Program, scan the QR Code and open it by Expo Go
+5. Run MongoDB(track-server) in one terminal
+```
+npm run dev
+```
+6. Run ngrok in one another terminal
+```
+ngrok http 3000
+```
+7. Paste the first Forwarding URL to scr/api/tracker.js
+```
+const instance = axios.create({
+  baseURL: "Forwarding URL",
+});
+```
+8.Run program in another terminal, scan the QR Code and open it by Expo Go
 ```
 npm start
 ```
